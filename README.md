@@ -33,7 +33,7 @@ Keep this in mind when making your changes!
 3. Deploy it on heroku following our [deployment guide](https://docs.google.com/document/d/10gUVRN74JkL6Iqw3w_XEPcAaQkZFqlXYTRX-XFk51yk/edit). Ignore the cs1300 template - you'll be deploying this git repo.
 4. Verify that navigating to your URL will open version A 50% of the time, and version B the other 50%. Click around and check if the cart page is working.
 5. Check if the logs are working properly. From the 1300ABTesting folder, run the following command to extract the logs into a text file `mylog.txt`.  
-Mac: `heroku logs --app=<your-app-name> -n 1500 > mylog.txt`  
+Mac: `heroku logs --app=<your-app-name> -n 1500 > mylog.txt` 
 Windows: `heroku logs --app=<your-app-name> -n 1500 | Out-File mylog.txt`  
 After you hit enter, you’ll see a blank line at the bottom of your terminal, which means that the command is running.
 Once the command has finished, if you look at the created text file (`mylog.txt` in the above example), there’s a lot of information we don’t need. To get just the lines of data that we want for this project, run:  
